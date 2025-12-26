@@ -1,4 +1,4 @@
-const inputHours = +prompt("яку кількість годин перевести у секунди ?");
+const inputHours = +prompt("яку кількість годин перевести у секунди ?")
 
 if (isNaN(inputHours) || inputHours <= 0) {
   alert("помилка: введено літери або пустий рядок, вводити можна лише числа");
